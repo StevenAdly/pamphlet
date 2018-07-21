@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="first day" />
+        <item
+            android:id="@+id/nav_sec_layout"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="second day" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="third day" />
+
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="fourth day" />
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="taraneem" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="she3aar" />
+
+        <item
+            android:id="@+id/fatherNav"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="أقوال آباء" />
+
+        <item
+            android:id="@+id/pray"
+            android:icon="@drawable/ic_menu_share"
+            android:title="صلاة العثور علينا بعد التيهان" />
+
+    </group>
+
+</menu>

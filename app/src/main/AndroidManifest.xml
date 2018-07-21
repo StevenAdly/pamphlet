@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.steven.testnavbargpsconf">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/medback"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/as">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/as.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".TraneemList" />
+
+        <receiver android:name=".Alarm" />
+
+        <activity android:name=".T1" />
+        <activity android:name=".T2" />
+        <activity android:name=".T3" />
+        <activity android:name=".T4" />
+        <activity android:name=".T5" />
+        <activity android:name=".T6" />
+        <activity android:name=".T7" />
+        <activity android:name=".T8" />
+        <activity android:name=".T9" />
+        <activity android:name=".T10" />
+        <activity android:name=".T11" />
+        <activity android:name=".T12" />
+        <activity android:name=".T13" />
+        <activity android:name=".T14" />
+        <activity android:name=".T15" />
+        <activity android:name=".T16" />
+        <activity android:name=".T17" />
+        <activity android:name=".T18" />
+        <activity android:name=".T19" />
+        <activity android:name=".T20" />
+        <activity android:name=".T21" />
+        <activity android:name=".T22" />
+        <activity android:name=".T23" />
+        <activity android:name=".Fathers" />
+        <activity android:name=".FirstDay" />
+        <activity android:name=".SecondDay" />
+        <activity android:name=".ThirdDay" />
+        <activity android:name=".Fourthday" />
+        <activity android:name=".PrayAct"></activity>
+    </application>
+
+</manifest>
